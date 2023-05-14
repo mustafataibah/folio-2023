@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    position: fixed;
+    z-index: 5;
+    top: 96px;
+    left: 0;
+    right: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.header-content {
+    z-index: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 88px 0 96px;
+}
+
+.left-part {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: inherit;
+}
+
+.logo {
+    margin-right: 24px;
+}
+
+a {
+    font-size: 1rem;
+}
+
+a {
+    font-size: 1.25rem;
+    font-variation-settings: "wght";
+    text-transform: lowercase;
+    text-decoration: none;
+    color: white;
+}
+
+.visually-hidden {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.right-part {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    cursor: pointer;
+    transform: translateY(48px);
+}
+
+.hamburger-btn {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font: inherit;
+    padding: 0;
+}
+
+li {
+    margin-left: 24px;
+    line-height: 0;
+
+}
+
+li {
+    font-size: 1rem;
+}
